@@ -14,7 +14,9 @@ import styles from '../style';
 const backgroundImage = { uri: "https://i.pinimg.com/736x/8c/e6/88/8ce68897df5720a305bb2415d52b0c68.jpg" };
 
 export type MovimientosScreenParams = {
+
   product: Product;
+
 };
 
 export function EntradasScreen(): React.JSX.Element {
@@ -35,7 +37,9 @@ export function EntradasScreen(): React.JSX.Element {
 
   return (
     <ImageBackground source={backgroundImage} style={styles.background}>
+      
       <SafeAreaView style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+        
         <View style={styles.container}>
           <Text style={styles.textHeader}>{product?.nombre}</Text>
           <Text style={styles.textLabel}>Cantidad</Text>

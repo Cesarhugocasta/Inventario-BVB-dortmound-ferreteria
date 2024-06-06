@@ -28,7 +28,9 @@ export default function ProductAdd(): React.JSX.Element {
   };
 
   return (
+    
     <ImageBackground source={backgroundImage} style={styles.background}>
+      
       <SafeAreaView style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
         <View style={styles.container}>
           <Text style={styles.textLabel}>Nombre</Text>
